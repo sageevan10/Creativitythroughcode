@@ -1,0 +1,54 @@
+<head>
+    <title>ctc</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+<template name = "about">
+    {{> navbar}}
+    <body>
+        <div class = "top">
+            <h1>- Welcome to our page! -</h1>
+            <p>Here are some cool features</p>
+            <p>Contact us <a href = "/contact">here</a></p>
+        </div>
+        <div style="border-style:solid">
+            <h1>Here are our features </h1>
+            <div class = "col-md-8">
+                <div class = "col-sm-6">
+                    <h3>Interactivity</h3>
+                    <p>Descripition</p>
+                </div>
+                <div class = "col-sm-6">
+                    <h3>Interactivtiy</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class = "col-md-4">
+                <h3>Interactivty</h3>
+                <p>Descrpition</p>
+            </div>
+        </div>
+    </body>
+</template>
+<template name = "contact">
+    {{> navbar}}
+    <h1>This is the contact page</h1>
+</template>
+<template name = "navbar">
+    <nav>
+        <div class = "col-md-1">
+            <a href = "/"><h4>Home</h4></a>
+        </div>
+        <div class = "col-md-1">
+            <a href = "/contact"><h4>Contact</h4></a>
+        </div>
+    </nav>
+</template>

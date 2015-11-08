@@ -1,0 +1,30 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.top {
+    border-style:solid; 
+    height:58vh; 
+    background-image: url("http://images4.alphacoders.com/242/242474.jpg");
+    color: white;
+}
+.top h1 {
+    
+}
+nav {
+    min-height: 50px;
+    background-color: azure;
+}
+nav div a {
+    color: darkblue;
+}
+nav div a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+nav div a h4 {
+    opacity: 1.0;
+}
+nav div a h4:hover {
+    opacity: 0.7;
+}
